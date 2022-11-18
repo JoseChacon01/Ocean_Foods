@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Compras realizadas</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+  <!--link minificado do font elsom-->
+  <link rel="stylesheet" type="text/css" href="../css/estilo.css" />
+
+</head>
+
+<body>
+
+  
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="../imagens_geral/perfil_usuario/imagem_perfil.png" alt="perfil do usuario"
+          class="rounded-circle" width="70px"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <p>Olá, Carla! <br> Bem-vindo(a)</p>
+            <li class="nav-item dropdown">
+              <div class="orgmenu">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Inicio</a>
+                </li>
+                
+                <li class="nav-item">
+                  <a class="nav-link" href="perfil_usuario.html">Voltar</a>
+                </li>
+      
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html" tabindex="-1" aria-disabled="true">Sair</a>
+                </li>
+                      <div class="social-media">
+                  <a href="index.html">
+                      <img src="../imagens_geral/perfil_usuario/carrinho_compras.png" alt="imagem de carrinho de compras" class="media-object" width="35px"> 
+                  </a>
+               </div>       
+                </div> 
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+        <div class="espaco">
+            <h2 class="text-center">Meus Pedidos:</h2>
+        <table class="table">
+          <thead class="table-dark">
+              <tr>
+                  <th>Pedido</th>
+                  <th>Cod.</th>
+                  <th>Qnt</th>
+                  <th>Valor</th>
+                  <th>Data</th>
+                  <th>Detalhes</th>
+                  <th>Cancelar</th>
+                </tr>
+          </thead>
+          <tbody>
+              <tr class="wai">
+                  <td>Yakisoba</td>
+                  <td>05</td>
+                  <td>01</td>
+                  <td>28,00</td>
+                  <td>30/03/2022</td>
+                  <td><button type="submit" class="btn btn-primary">VER</button></td>
+                  <td><button type="button" class="btn btn-danger">X</button></td>
+                </tr>
+                <tr class="wai">
+                  <td>Sshimi</td>
+                  <td>08</td>
+                  <td>02</td>
+                  <td>32,00</td>
+                  <td>30/03/2022</td>
+                  <td><button type="submit" class="btn btn-primary">VER</button></td>
+                  <td><button type="button" class="btn btn-danger">X</button></td>
+                </tr>
+                <tr class="wai">
+                  <td>Heineken</td>
+                  <td>06</td>
+                  <td>02</td>
+                  <td>30,00</td>
+                  <td>12/02/2022</td>
+                  <td><button type="submit" class="btn btn-primary">VER</button></td>
+                  <td><button type="button" class="btn">X</button></td>
+                </tr>
+          </tbody>
+        </table>
+      </div>
+      
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+              integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+              crossorigin="anonymous"></script>
+      
+      </body>
+      
+      </html>

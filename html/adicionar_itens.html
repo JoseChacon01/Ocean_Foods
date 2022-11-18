@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Gerência de cardápio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+  <!--link minificado do font elsom-->
+  <link rel="stylesheet" type="text/css" href="../css/estilo.css" />
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="../imagens_geral/perfil_profissional/imagem_perfil (1).png"
+          alt="perfil do profissional" class="rounded-circle" width="70px"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <p>Olá, Kaio! <br> Bem-vindo(a)</p>
+          <li class="nav-item dropdown">
+            <div class="orgmenu">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Inicio</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="lista_itens.html">Voltar</a>
+          </li>
+          <div class="social-media">
+            <a href="index.html">
+              <img src="../imagens_geral/perfil_profissional/sair.png" alt="imagem para o usuario sair do site"
+                class="media-object" width="45px">
+            </a>
+          </div>
+      </div>
+      </ul>
+    </div>
+    </div>
+  </nav>
+
+  <form class="aling">
+    <div class="mb-3">
+      <h2>Cadastrar novo item:</h2>
+      <label for="nomeproduto" class="form-label">Nome do produto:</label>
+      <input type="text" class="form-control" id="nomeproduto" aria-describedby="nomeproduto" autofocus required>
+      <div id="nomeproduto" class="form-text">Insira corretamente os dados.</div>
+    </div>
+    <div class="mb-3">
+      <label for="descricaoproduto" class="form-label">Descrição:</label>
+      <input type="text" class="form-control" id="descricaoproduto" autofocus required>
+    </div>
+
+    <div class="mb-3">
+      <label for="inputState" class="form-label"></label>
+      <select id="inputState" class="form-select">
+        <option selected>Para quantas pessoas?</option>
+        <option>1 Pessoa</option>
+        <option>2 Pessoas</option>
+        <option>4 Pessoas</option>
+        <option>6 Pessoas</option>
+      </select>
+    </div>
+
+    <div class="input-group mb-3">
+      <span class="input-group-text">Valor:</span>
+      <span class="input-group-text">0.00</span>
+      <input type="text" class="form-control" aria-label="Dollar amount (with dot and two decimal places)" autofocus
+        required>
+    </div>
+
+    <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+      <option selected>Qual o grupo ?</option>
+      <option value="1">Pratos</option>
+      <option value="2">Bebidas com alcool</option>
+      <option value="3">Bebidas sem alcool</option>
+    </select>
+
+    <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+      <option selected>Qual a categoria?</option>
+      <option value="1">Mais pedidos</option>
+      <option value="2">Culinaria local</option>
+      <option value="3">Sobremesas</option>
+      <option value="3">Frutos do mar?</option>
+    </select>
+    <br>
+    <div>
+      <label for="foto">Anexe uma foto do item: <br></label>
+      <input type="file" name="foto" id="foto" />
+    </div>
+    <br>
+    <div class="mb-3 form-check">
+      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+      <label class="form-check-label" for="exampleCheck1">Frete grátis.</label>
+    </div>
+    <button type="submit" class="btn btn-primary bntt">Salvar</button>
+  </form>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Bebidas Japonesas</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+  <!--link minificado do font elsom-->
+  <link rel="stylesheet" type="text/css" href="../../css/estilo.css" />
+</head>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="../../imagens_geral/logo/logo.png" alt="logo da empresa ocean Foods."
+          class="rounded-circle" width="70px"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../index.html">Início</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../cat_cardapio.html">Voltar</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="../telacadastro.html">Cadastre-se</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../telalogin.html" tabindex="-1" aria-disabled="true">Conecte-se</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Mais
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Promoções</a></li>
+              <li><a class="dropdown-item" href="../perfil_usuario.html">Minha conta</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="../perfil_profissional.html">Perfil Profissional</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Digite..." aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <div>
+    <img src="../../imagens_geral/itens_cardapio/bebidas_japonesas/capa_bebidas_japonesas.png" class="d-block w-100"
+      alt="logo do ocean foods">
+  </div>
+
+  <!--FILTROS-->
+  <div class="container">
+    <form>
+      <div class="col-sm-12 col-md-4">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="gridCheck">
+          <label class="checkcard form-check-label" for="gridCheck">
+            Itens com frete grátis.
+          </label>
+        </div>
+      </div>
+
+      <div class="col-sm-12 col-md-4">
+        <label for="inputState" class="form-label"></label>
+        <select id="inputState" class="form-select">
+          <option selected>Valor medio?</option>
+          <option>R$05,00 - R$15,00</option>
+          <option>R$15,00 - R$40,00</option>
+          <option>R$40,00 - R$80,00</option>
+          <option>A cima de R$100,00</option>
+        </select>
+      </div>
+
+      <div class="col-sm-12 col-md-4">
+        <button type="submit" class="bcard btn btn-primary">Pesquisar</button>
+      </div>
+    </form>
+
+    <!-- LINHA DE CIMA DAS BEBIDAS -->
+    <div class="row espaco">
+      <div class="col-12 col-sm-6 col-lg-4 text-center">
+        <a href="#"><img style="height: 280px; width: 280px;"
+            src="../../imagens_geral/itens_cardapio/bebidas_japonesas/hoppy.jpg"
+            class="cardio media-object  img-responsive img-fluid rounded-circle"></a>
+        <p class="nomesc">Cerveja Hoppy</p>
+        <p class="descr">1 Uni. Cerveja Hoppy</p>
+        <p class="preco">7,00 R$</p>
+        <button type="button" class="btn btn-success mx-auto">Comprar</button>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-4 text-center">
+        <a href="#"><img style="height: 280px; width: 280px;"
+            src="../../imagens_geral/itens_cardapio/bebidas_japonesas/umeshu.jpg"
+            class="cardio media-object  img-responsive img-fluid rounded-circle"></a>
+        <p class="nomesc">Licor de Ameixa Umeshu</p>
+        <p class="descr">1 Uni. Licor Umeshu</p>
+        <p class="preco">13,00 R$</p>
+        <button type="button" class="btn btn-success mx-auto">Comprar</button>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-4 text-center">
+        <a href="#"><img style="height: 280px; width: 280px;"
+            src="../../imagens_geral/itens_cardapio/bebidas_japonesas/amazake.jpg"
+            class="cardio media-object  img-responsive img-fluid rounded-circle"></a>
+        <p class="nomesc">Amazake</p>
+        <p class="descr">1 Uni. Vinho Amazake</p>
+        <p class="preco">9,00 R$</p>
+        <button type="button" class="btn btn-success mx-auto">Comprar</button>
+      </div>
+    </div>
+    <!-- LINHA DO MEIO DAS BEBIDAS -->
+    <div class="row">
+      <div class="col-12 col-sm-6 col-lg-4 text-center">
+        <a href="#"><img style="height: 280px; width: 280px;"
+            src="../../imagens_geral/itens_cardapio/bebidas_japonesas/Awamori.jpg"
+            class="cardio media-object  img-responsive img-fluid rounded-circle"></a>
+        <p class="nomesc">Awamori</p>
+        <p class="descr">1 Uni. Awamori</p>
+        <p class="preco">17,00 R$</p>
+        <button type="button" class="btn btn-success mx-auto">Comprar</button>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-4 text-center">
+        <a href="#"><img style="height: 280px; width: 280px;"
+            src="../../imagens_geral/itens_cardapio/bebidas_japonesas/Shochu.jpg"
+            class="cardio media-object  img-responsive img-fluid rounded-circle"></a>
+        <p class="nomesc">Shochu</p>
+        <p class="descr">1 Uni. de Shochu</p>
+        <p class="preco">15,00 R$</p>
+        <button type="button" class="btn btn-success mx-auto">Comprar</button>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-4 text-center">
+        <a href="#"><img style="height: 280px; width: 280px;"
+            src="../../imagens_geral/itens_cardapio/bebidas_japonesas/roku_gin2.jpg"
+            class="cardio media-object  img-responsive img-fluid rounded-circle"></a>
+        <p class="nomesc">Roku</p>
+        <p class="descr">1 Uni. Roku Japonês</p>
+        <p class="preco">29,00 R$</p>
+        <button type="button" class="btn btn-success mx-auto">Comprar</button>
+      </div>
+    </div>
+    <!-- LINHA DE BAIXO DAS BEBIDAS -->
+    <div class="row">
+      <div class="col-12 col-sm-6 col-lg-4 text-center">
+        <a href="#"><img style="height: 280px; width: 280px;"
+            src="../../imagens_geral/itens_cardapio/bebidas_japonesas/yuzu1.jpg"
+            class="cardio media-object  img-responsive img-fluid rounded-circle"></a>
+        <p class="nomesc">Yuzu</p>
+        <p class="descr">1 Uni. Yuzu Japonês</p>
+        <p class="preco">59,00 R$</p>
+        <button type="button" class="btn btn-success mx-auto">Comprar</button>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-4 text-center">
+        <a href="#"><img style="height: 280px; width: 280px;"
+            src="../../imagens_geral/itens_cardapio/bebidas_japonesas/whisky_japones.jpg"
+            class="cardio media-object  img-responsive img-fluid rounded-circle"></a>
+        <p class="nomesc">Whisky</p>
+        <p class="descr">1 Uni. Whiski Japonês</p>
+        <p class="preco">195,00 R$</p>
+        <button type="button" class="btn btn-success mx-auto">Comprar</button>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-4 text-center">
+        <a href="#"><img style="height: 280px; width: 280px;"
+            src="../../imagens_geral/itens_cardapio/bebidas_japonesas/cerveja_j.jpg"
+            class="cardio media-object  img-responsive img-fluid rounded-circle"></a>
+        <p class="nomesc">Cerveja Japonesa</p>
+        <p class="descr">1 Uni. Cerveja</p>
+        <p class="preco">18,00 R$</p>
+        <button type="button" class="btn btn-success mx-auto">Comprar</button>
+
+      </div>
+    </div>
+  </div>
+  <br>
+  <!-- RODAPÉ -->
+  <footer class="border-top text-muted bg-light">
+    <div class="container">
+      <div class="row py-3">
+        <div class="col-12 col-md-3 text-center text-md-left">
+          &copy; 2020 - Ocean Foods
+        </div>
+
+        <div class="col-12 col-md-3 text-center ">
+          <a href="#" class="text-decoration-none text-dark">Politica de privacidade</a>
+        </div>
+
+        <div class="col-12 col-md-3 text-center text-md-right">
+          <a href="#" class="text-decoration-none text-dark">oceanfoodsof@gmail.com</a>
+        </div>
+
+        <div class="col-12 col-md-3 text-center text-md-right">
+          <a href="#" class="text-decoration-none text-dark">@Ocean_foods</a>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
